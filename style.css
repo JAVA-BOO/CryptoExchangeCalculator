@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(34, 33, 33);*/
+  /* background-image: url(./images/IMG_6309.JPG); */
+  background-image: url(./images/IMG_6308.AVIF);
+  background-size: cover;
+  color: white;
+}
+
+.calc {
+  padding: 25px;
+  /* height: 100vh; */
+}
+
+.calc-body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border: 1px solid rgb(210, 210, 210);
+  padding: 50px 15px 20px;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgb(15, 16, 16);
+  flex-direction: column;
+}
+.darkMode {
+  width: 100%;
+  margin-block: 10px;
+  background-color: greenyellow;
+  border: 1px solid white;
+  padding: 5px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+.calc-work {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  /* height: 80%; */
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.second {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+input {
+  padding: 12px 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #393939;
+}
+select {
+  padding: 12px 10px;
+  appearance: none;
+  border-radius: 15px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #393939;
+  background-color: rgb(238, 236, 236);
+}
+
+select::after {
+  content: "⌄";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  color: black;
+  pointer-events: none;
+}
+p {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.circle {
+  background-color: rgb(238, 236, 236);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid grey;
+  margin-block: 10px;
+  padding: 20px;
+}
+
+.button1 {
+  padding: 15px 10px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+#result {
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
